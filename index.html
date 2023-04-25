@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">    
     <link rel="stylesheet" href="./css/style.css">
     </head>
+
     <body>
-      <div class="container">
+    <div id="timer"></div>
         <div id="questionContainer" class="hide">
             <div id="question">Question</div>
             <div id="answerButton" class="buttonGrid">
@@ -21,7 +22,18 @@
             <button id="startBtn" class="startButton btn">Start</button>
             <button id="nextBtn" class="nextButton btn hide">Next</button>
         </div>
-    </div>
-    <script defer src="./js/script.js"></script>
-    </body>
+        <div id="game-over" class="hide">
+            <h2>Game Over</h2>
+        </div>
+        <div id="score" class="hide">
+            <div id="yourscore">Your Score</div>
+            <div id="currentScore"></div>
+            <label id="initials" for="name">Enter Your Initials</label>
+            <input type="text" id="name" name="name" required></input>
+            <button id="submit" type="button">Submit</button>
+        </div>
+        <div id="submittedScores" class="hide"></div>
+        <script defer src="./js/script.js"></script>
+</body>
+
 </html>

@@ -50,10 +50,74 @@ body {
     padding: 10px 20px;
 }
 
+
+.scoreButton {
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#timer {
+    height: 90px;
+    width: 90px;
+    font-size: 35px;
+    position: absolute;
+    background-color: rgb(196, 188, 188);
+    top: 7px;
+    right: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#highScore a {
+    text-decoration: none;
+    color: black;
+}
+
+/* if correct, change to yellow*/
+.correct {
+    background-color: rgb(204, 235, 67);
+}
+
+/* if wrong answer, change to red*/
+
+.wrong {
+    background-color: rgb(134, 5, 5);
+}
+
+#h1score {
+    position: absolute;
+    top: 0;
+    color: white;
+}
+
+#initials {
+    font-size: 20px;
+    color: rgb(240, 213, 213);
+}
+
+#game-over h2 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#yourscore, #currentScore {
+    color: white;
+    font-size: 25px;
+}
+
+#submittedScores {
+    background-color: rgb(225, 173, 230);
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .hide {
