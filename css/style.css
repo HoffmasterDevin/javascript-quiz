@@ -13,3 +13,49 @@ body {
     justify-content: center;
     align-items: center;
 }
+#questionContainer {
+    width: 800px;
+    max-width: 75%;
+    background-color: rgb(160, 159, 159);
+    border-radius: 4px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.buttonGrid {
+    gap: 10px;
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: rgb(115, 109, 199);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    border: 10px rgb(245, 72, 72);
+}
+
+.startButton {
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+.nextButton {
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
