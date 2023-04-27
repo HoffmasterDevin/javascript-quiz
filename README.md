@@ -7,7 +7,7 @@ This page is a quiz on javascript, using HTML, CSS, and Javascript. The purpose 
 https://hoffmasterdevin.github.io/javascript-quiz/
 
 ## Screenshot
-[image](https://github.com/HoffmasterDevin/javascript-quiz/blob/main/assets/screenshot.png?raw=true)
+![image](https://github.com/HoffmasterDevin/javascript-quiz/blob/main/assets/screenshot.png?raw=true)
 
 ## License
 MIT License
