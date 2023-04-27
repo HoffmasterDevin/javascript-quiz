@@ -139,39 +139,39 @@ function stateReset() {
 
 const questions = [
     {
-        question: 'Test?',
+        question: 'Who created JavaScript?',
         answers: [
-            {text: 'True', correct: true},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false}
+            {text: 'Microsoft', correct: false},
+            {text: 'Sun Microsystems', correct: false},
+            {text: 'Oracle', correct: false},
+            {text: 'Netscape', correct: true}
         ]
     },
     {
-        question: 'Test?',
+        question: 'How long did Brendan Eich take to write the JavaScript programming language?',
         answers: [
-            {text: 'True', correct: true},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false}
+            {text: '10 days', correct: true},
+            {text: '2 weeks', correct: false},
+            {text: '2 months', correct: false},
+            {text: '10 months', correct: false}
         ]
     },
     {
-        question: 'Test?',
+        question: 'Which of the following is not a reserved word in JavaScript?',
         answers: [
-            {text: 'True', correct: true},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false}
+            {text: 'undefined', correct: true},
+            {text: 'finally', correct: false},
+            {text: 'throw', correct: false},
+            {text: 'default', correct: false}
         ]
     },
     {
-        question: 'Test?',
+        question: 'JavaScript wasn’t always called that. What other name has it been released under?',
         answers: [
-            {text: 'True', correct: true},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false},
-            {text: 'False', correct: false}
+            {text: 'Mocha', correct: true},
+            {text: 'BScript', correct: false},
+            {text: 'Latte', correct: false},
+            {text: 'Spidermonkey', correct: false}
         ]
     }
 ];
